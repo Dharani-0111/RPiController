@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fullRead">
+
+
+    <ScrollView
+        android:layout_width="385dp"
+        android:layout_height="597dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="89dp"
+        android:layout_marginBottom="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/gpio_1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:onClick="gpio1"
+                    android:text="@string/gpio_1" />
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:text="@string/_0"
+                    android:textAlignment="center"
+                    android:textSize="45sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/gpio_2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:onClick="gpio2"
+                    android:layout_weight="3"
+                    android:text="@string/gpio_2" />
+
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:text="@string/_0"
+                    android:textAlignment="center"
+                    android:textSize="45sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/gpio_3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:onClick="gpio3"
+                    android:text="@string/gpio_3" />
+
+                <TextView
+                    android:id="@+id/tv3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:text="@string/_0"
+                    android:textAlignment="center"
+                    android:textSize="45sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/gpio_4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:onClick="gpio4"
+                    android:layout_weight="3"
+                    android:text="@string/gpio_4" />
+
+                <TextView
+                    android:id="@+id/tv4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:text="@string/_0"
+                    android:textAlignment="center"
+                    android:textSize="45sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/gpio_5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:onClick="gpio5"
+                    android:text="@string/gpio_5" />
+
+                <TextView
+                    android:id="@+id/tv5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:text="@string/_0"
+                    android:textAlignment="center"
+                    android:textSize="45sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/gpio_6"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:onClick="gpio6"
+                    android:layout_weight="3"
+                    android:text="@string/gpio_6" />
+
+                <TextView
+                    android:id="@+id/tv6"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:text="@string/_0"
+                    android:textAlignment="center"
+                    android:textSize="45sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/gpio_7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:onClick="gpio7"
+                    android:text="@string/gpio_7" />
+
+                <TextView
+                    android:id="@+id/tv7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:text="@string/_0"
+                    android:textAlignment="center"
+                    android:textSize="45sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/gpio_8"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:onClick="gpio8"
+                    android:layout_weight="3"
+                    android:text="@string/gpio_8" />
+
+                <TextView
+                    android:id="@+id/tv8"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:text="@string/_0"
+                    android:textAlignment="center"
+                    android:textSize="45sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/gpio_9"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:onClick="gpio9"
+                    android:text="@string/gpio_9" />
+
+                <TextView
+                    android:id="@+id/tv9"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:text="@string/_0"
+                    android:textAlignment="center"
+                    android:textSize="45sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/gpio_10"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:onClick="gpio10"
+                    android:layout_weight="3"
+                    android:text="@string/gpio_10" />
+
+                <TextView
+                    android:id="@+id/tv10"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:text="@string/_0"
+                    android:textAlignment="center"
+                    android:textSize="45sp"
+                    android:textStyle="bold" />
+            </LinearLayout><LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/gpio_11"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:onClick="gpio11"
+                android:text="@string/gpio_11" />
+
+            <TextView
+                android:id="@+id/tv11"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text="@string/_0"
+                android:textAlignment="center"
+                android:textSize="45sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/gpio_12"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:onClick="gpio12"
+                android:layout_weight="3"
+                android:text="@string/gpio_12" />
+
+            <TextView
+                android:id="@+id/tv12"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text="@string/_0"
+                android:textAlignment="center"
+                android:textSize="45sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/gpio_13"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:onClick="gpio13"
+                    android:text="@string/gpio_13" />
+
+                <TextView
+                    android:id="@+id/tv13"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:text="@string/_0"
+                    android:textAlignment="center"
+                    android:textSize="45sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/gpio_14"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:onClick="gpio14"
+                    android:layout_weight="3"
+                    android:text="@string/gpio_14" />
+
+                <TextView
+                    android:id="@+id/tv14"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:text="@string/_0"
+                    android:textAlignment="center"
+                    android:textSize="45sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/gpio_15"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:onClick="gpio15"
+                    android:text="@string/gpio_15" />
+
+                <TextView
+                    android:id="@+id/tv15"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:text="@string/_0"
+                    android:textAlignment="center"
+                    android:textSize="45sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/gpio_16"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:onClick="gpio16"
+                    android:layout_weight="3"
+                    android:text="@string/gpio_16" />
+
+                <TextView
+                    android:id="@+id/tv16"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:text="@string/_0"
+                    android:textAlignment="center"
+                    android:textSize="45sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/gpio_17"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:onClick="gpio17"
+                    android:text="@string/gpio_17" />
+
+                <TextView
+                    android:id="@+id/tv17"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:text="@string/_0"
+                    android:textAlignment="center"
+                    android:textSize="45sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/gpio_18"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:onClick="gpio18"
+                    android:layout_weight="3"
+                    android:text="@string/gpio_18" />
+
+                <TextView
+                    android:id="@+id/tv18"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:text="@string/_0"
+                    android:textAlignment="center"
+                    android:textSize="45sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/gpio_19"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:onClick="gpio19"
+                    android:text="@string/gpio_19" />
+
+                <TextView
+                    android:id="@+id/tv19"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:text="@string/_0"
+                    android:textAlignment="center"
+                    android:textSize="45sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/gpio_20"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:onClick="gpio20"
+                    android:layout_weight="3"
+                    android:text="@string/gpio_20" />
+
+                <TextView
+                    android:id="@+id/tv20"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:text="@string/_0"
+                    android:textAlignment="center"
+                    android:textSize="45sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/gpio_21"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:onClick="gpio21"
+                    android:text="@string/gpio_21" />
+
+                <TextView
+                    android:id="@+id/tv21"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:text="@string/_0"
+                    android:textAlignment="center"
+                    android:textSize="45sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/gpio_22"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:onClick="gpio22"
+                    android:layout_weight="3"
+                    android:text="@string/gpio_22" />
+
+                <TextView
+                    android:id="@+id/tv22"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:text="@string/_0"
+                    android:textAlignment="center"
+                    android:textSize="45sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/gpio_23"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:onClick="gpio23"
+                    android:text="@string/gpio_23" />
+
+                <TextView
+                    android:id="@+id/tv23"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:text="@string/_0"
+                    android:textAlignment="center"
+                    android:textSize="45sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/gpio_24"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:onClick="gpio24"
+                    android:layout_weight="3"
+                    android:text="@string/gpio_24" />
+
+                <TextView
+                    android:id="@+id/tv24"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:text="@string/_0"
+                    android:textAlignment="center"
+                    android:textSize="45sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/gpio_25"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:onClick="gpio25"
+                    android:text="@string/gpio_25" />
+
+                <TextView
+                    android:id="@+id/tv25"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:text="@string/_0"
+                    android:textAlignment="center"
+                    android:textSize="45sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/gpio_26"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:onClick="gpio26"
+                    android:layout_weight="3"
+                    android:text="@string/gpio_26" />
+
+                <TextView
+                    android:id="@+id/tv26"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:text="@string/_0"
+                    android:textAlignment="center"
+                    android:textSize="45sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="385dp"
+        android:layout_height="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+
+        android:text="Tap Buttons to Get Readings Instantly"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+
+
+</RelativeLayout>

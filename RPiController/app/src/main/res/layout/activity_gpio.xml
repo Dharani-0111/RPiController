@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GPIO">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="580dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Switch
+                android:id="@+id/Sw1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:gravity="start"
+                android:padding="20dp"
+                android:text="@string/_1"
+                android:textSize="25sp" />
+
+            <Switch
+                android:id="@+id/Sw2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:gravity="start"
+                android:padding="20dp"
+                android:text="@string/_2"
+                android:textSize="25sp" />
+
+            <Switch
+                android:id="@+id/Sw3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:gravity="start"
+                android:padding="20dp"
+                android:text="@string/_3"
+                android:textSize="25sp" />
+
+            <Switch
+                android:id="@+id/Sw4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:gravity="start"
+                android:padding="20dp"
+                android:text="@string/_4"
+                android:textSize="25sp" />
+
+            <Switch
+                android:id="@+id/Sw5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:gravity="start"
+                android:padding="20dp"
+                android:text="@string/_5"
+                android:textSize="25sp" />
+
+            <Switch
+                android:id="@+id/Sw6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:gravity="start"
+                android:padding="20dp"
+                android:text="@string/_6"
+                android:textSize="25sp" />
+
+            <Switch
+                android:id="@+id/Sw7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:gravity="start"
+                android:padding="20dp"
+                android:text="@string/_7"
+                android:textSize="25sp" />
+
+            <Switch
+                android:id="@+id/Sw8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:gravity="start"
+                android:padding="20dp"
+                android:text="@string/_8"
+                android:textSize="25sp" />
+
+            <Switch
+                android:id="@+id/Sw9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:gravity="start"
+                android:padding="20dp"
+                android:text="@string/_9"
+                android:textSize="25sp" />
+
+            <Switch
+                android:id="@+id/Sw10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:gravity="start"
+                android:padding="20dp"
+                android:text="@string/_10"
+                android:textSize="25sp" />
+
+            <Switch
+                android:id="@+id/Sw11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:gravity="start"
+                android:padding="20dp"
+                android:text="@string/_11"
+                android:textSize="25sp" />
+
+            <Switch
+                android:id="@+id/Sw12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:gravity="start"
+                android:padding="20dp"
+                android:text="@string/_12"
+                android:textSize="25sp" />
+
+            <Switch
+                android:id="@+id/Sw13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:gravity="start"
+                android:padding="20dp"
+                android:text="@string/_13"
+                android:textSize="25sp" />
+
+            <Switch
+                android:id="@+id/Sw14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:gravity="start"
+                android:padding="20dp"
+                android:text="@string/_14"
+                android:textSize="25sp" />
+
+            <Switch
+                android:id="@+id/Sw15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:gravity="start"
+                android:padding="20dp"
+                android:text="@string/_15"
+                android:textSize="25sp" />
+
+            <Switch
+                android:id="@+id/Sw16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:gravity="start"
+                android:padding="20dp"
+                android:text="@string/_16"
+                android:textSize="25sp" />
+
+            <Switch
+                android:id="@+id/Sw17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:gravity="start"
+                android:padding="20dp"
+                android:text="@string/_17"
+                android:textSize="25sp" />
+
+            <Switch
+                android:id="@+id/Sw18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:gravity="start"
+                android:padding="20dp"
+                android:text="@string/_18"
+                android:textSize="25sp" />
+
+            <Switch
+                android:id="@+id/Sw19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:gravity="start"
+                android:padding="20dp"
+                android:text="@string/_19"
+                android:textSize="25sp" />
+
+            <Switch
+                android:id="@+id/Sw20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:gravity="start"
+                android:padding="20dp"
+                android:text="@string/_20"
+                android:textSize="25sp" />
+
+            <Switch
+                android:id="@+id/Sw21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:gravity="start"
+                android:padding="20dp"
+                android:text="@string/_21"
+                android:textSize="25sp" />
+
+            <Switch
+                android:id="@+id/Sw22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:gravity="start"
+                android:padding="20dp"
+                android:text="@string/_22"
+                android:textSize="25sp" />
+
+            <Switch
+                android:id="@+id/Sw23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:gravity="start"
+                android:padding="20dp"
+                android:text="@string/_23"
+                android:textSize="25sp" />
+
+            <Switch
+                android:id="@+id/Sw24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:gravity="start"
+                android:padding="20dp"
+                android:text="@string/_24"
+                android:textSize="25sp" />
+
+            <Switch
+                android:id="@+id/Sw25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:gravity="start"
+                android:padding="20dp"
+                android:text="@string/_25"
+                android:textSize="25sp" />
+
+            <Switch
+                android:id="@+id/Sw26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:gravity="start"
+                android:padding="20dp"
+                android:text="@string/_26"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="362dp"
+        android:layout_height="49dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="@string/txtview"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+
+</RelativeLayout>
