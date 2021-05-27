@@ -7,4 +7,6 @@ This project is to control Raspberry Pi using an Android app via Bluetooth
 
 3) Play around and make changes
 
-4) Run the app
+4) Setup the rfcomm-server.py file in the Pi and run it, debugging maybe required
+
+5) Run the app
